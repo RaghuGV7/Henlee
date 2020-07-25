@@ -1,0 +1,29 @@
+@import "node_modules/bootstrap/scss/functions";
+
+// Variable overrides
+$primary: #0285be;
+
+//bootsrap variable overrides
+
+$embed-responsive-aspect-ratios: ((21 9), (16 9), (4 3), (3 2), (1 1)) !default;
+/*$secondary: #4e555b;*/
+
+$body-bg: #e4e9ef; // #f7f9fc;
+
+//rounded border
+$enable-rounded: true;
+$border-radius: 0.1rem;
+$border-radius-lg: 0.3rem;
+$border-radius-sm: 0.1rem;
+
+/*$enable-gradients: true;*/
+
+//local style variables
+$navbar-height: 3.5em;
+$topnav-height: 6.3em;
+
+$footer-height: 3em;
+$logo-width: 200px;
+$logo-height: 40px;
+
+@import "node_modules/bootstrap/scss/variables";
