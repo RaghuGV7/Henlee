@@ -1,51 +1,34 @@
 <template>
-  <div class="fixed-top">
-    <div class="navbar-expand-lg top-brand">
-      <div class="container position-relative">
-        <div class="top-logo d-none d-md-block"></div>
-        <div class="top-logo-right d-none d-md-block"></div>
-        <div class="row">
-          <div class="col">
-            <h1 class="text-center text-primary header-text KaushanScript pt-2">
-              <strong>Kannada Balaga Swindon</strong>
-            </h1>
-            <span class="text-center text-muted" style="width: 100%; display: block; font-size: 13px;">Kannadigas Group in Swindon</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <b-navbar toggleable="lg" type="dark" variant="transparent" class="navbar-bg">
-      <div class="container">
-        <!-- <b-navbar-brand to="/" class="p-0">
+  <b-navbar toggleable="lg" type="dark" variant="transparent" class="navbar-bg">
+    <div class="container">
+      <!-- <b-navbar-brand to="/" class="p-0">
           <img src="@/assets/logo 2.png" class="brand-logo" />
         </b-navbar-brand> -->
-        <b-navbar-brand to="/" class="p-0 kannada">
-          ಕನ್ನಡ ಬಳಗ ಸ್ವಿಂಡನ್
-        </b-navbar-brand>
+      <b-navbar-brand to="/" class="p-0">
+        <h2>Henlee</h2>
+      </b-navbar-brand>
 
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-        <b-collapse id="nav-collapse" is-nav>
-          <!-- Right aligned nav items -->
+      <b-collapse id="nav-collapse" is-nav>
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
           <b-navbar-nav class="ml-auto">
-            <b-navbar-nav class="ml-auto">
-              <b-nav-item to="/" right><i class="fa fa-home"></i></b-nav-item>
-              <b-nav-item to="/events" right>Events</b-nav-item>
-              <b-nav-item right to="/gallery">Gallery</b-nav-item>
-              <b-nav-item-dropdown right>
-                <!-- Using 'button-content' slot -->
-                <template v-slot:button-content>Sessions</template>
-                <b-dropdown-item href="#">Learn Kananda</b-dropdown-item>
-                <b-dropdown-item href="#">Cultural</b-dropdown-item>
-              </b-nav-item-dropdown>
-              <b-nav-item right to="/contact">Contact Us</b-nav-item>
-            </b-navbar-nav>
+            <b-nav-item to="/" right><i class="fa fa-home"></i></b-nav-item>
+            <b-nav-item to="/events" right>Events</b-nav-item>
+            <b-nav-item right to="/gallery">Gallery</b-nav-item>
+            <b-nav-item-dropdown right>
+              <!-- Using 'button-content' slot -->
+              <template v-slot:button-content>Sessions</template>
+              <b-dropdown-item href="#">Learn Kananda</b-dropdown-item>
+              <b-dropdown-item href="#">Cultural</b-dropdown-item>
+            </b-nav-item-dropdown>
+            <b-nav-item right to="/contact">Contact Us</b-nav-item>
           </b-navbar-nav>
-        </b-collapse>
-      </div>
-    </b-navbar>
-  </div>
+        </b-navbar-nav>
+      </b-collapse>
+    </div>
+  </b-navbar>
 </template>
 
 <script>
