@@ -5,21 +5,21 @@
         <h2>Contact</h2>
       </div>
       <b-row>
-        <b-col>
+        <b-col sm="12">
           <div class="info-box">
             <i class="fa fa-map-marked-alt fa-2x"></i>
             <h3>Our Address</h3>
             <p>6 Woodchester, Westlea, SN5 7BQ</p>
           </div>
         </b-col>
-        <b-col>
+        <b-col sm="12">
           <div class="info-box">
             <i class="fa fa-envelope-open-text fa-2x"></i>
             <h3>Email Us</h3>
             <p>abc@henlee.com</p>
           </div>
         </b-col>
-        <b-col>
+        <b-col sm="12">
           <div class="info-box">
             <i class="fa fa-mobile-alt fa-2x"></i>
             <h3>Call Us</h3>
