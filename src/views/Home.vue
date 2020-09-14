@@ -1,18 +1,28 @@
 <template>
   <div class="home">
-    <carousal />
-    <Upcoming />
+    <Hero />
+    <Services />
+    <About />
+    <Technologies />
+    <ContactUs />
   </div>
 </template>
 
 <script>
-import Carousal from "@/components/Carousal";
-import Upcoming from "@/components/Upcoming";
+// import Carousal from "@/components/Carousal";
+import Hero from "@/components/Hero";
+import ContactUs from "@/components/ContactUs";
+import About from "@/components/About";
+import Technologies from "@/components/Technologies";
+import Services from "@/components/Services";
 export default {
   name: "Home",
   components: {
-    Carousal,
-    Upcoming
+    Hero,
+    Services,
+    Technologies,
+    About,
+    ContactUs
   }
 };
 </script>
