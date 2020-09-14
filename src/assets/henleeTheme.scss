@@ -45,6 +45,11 @@ body {
   background-size: contain;
   width: 100px;
   height: 85px;
+
+  &-sm {
+    width: 65px;
+    height: 65px;
+  }
 }
 
 .brand-title {
